@@ -2,6 +2,8 @@
 @import "bootstrap";
 
 /*universal*/
+$gray-medium-light: #eaeaea;
+
 
 body
 {
@@ -78,4 +80,40 @@ p
 {
   color: #2E2F30;
   text-decoration: snow;
+}
+
+/* footer */
+
+footer
+{
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: solid 1px $gray-medium-light;
+  color: $gray-light;
+
+  a
+  {
+    color: $gray;
+    &:hover
+    {
+      color: $gray-darker;
+    }
+  }
+
+  small
+  {
+    float: left;
+  }
+
+  ul
+  {
+    float: right;
+    list-style: none;
+
+    li
+    {
+      float: left;
+      margin-left: 15px;
+    }
+  }
 }
