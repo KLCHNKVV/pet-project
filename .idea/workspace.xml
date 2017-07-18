@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="432e4a05-dca0-4b7d-bc58-508d882f42b4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/contact.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/contact.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/static_pages_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/static_pages_controller_test.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,41 +19,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="contact.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/static_pages/contact.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom.css.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="98" column="15" lean-forward="false" selection-start-line="98" selection-start-column="15" selection-end-line="98" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="static_pages_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/static_pages_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_footer.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_footer.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            <state relative-caret-position="85">
+              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fill_layout_test.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/integration/fill_layout_test.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -65,8 +52,8 @@
       <file leaf-file-name="static_pages_controller_test.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/controllers/static_pages_controller_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="357">
+              <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -106,15 +93,16 @@
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_shim.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
-        <option value="$PROJECT_DIR$/app/views/static_pages/contact.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" />
         <option value="$PROJECT_DIR$/test/controllers/static_pages_controller_test.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/static_pages/contact.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/test/integration/fill_layout_test.rb" />
       </list>
     </option>
   </component>
@@ -240,6 +228,28 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pet-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pet-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -248,7 +258,7 @@
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="_&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/app/views/layouts/_footer.html.erb&#10;Gem&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/Gemfile&#10;Ge&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/Gemfile&#10;sta&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/app/controllers/static_pages_controller.rb&#10;cont&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/app/views/static_pages/contact.html.erb&#10;contac&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/app/views/static_pages/contact.html.erb&#10;appl&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/app/assets/stylesheets/application.css&#10;_foot&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/app/views/layouts/_footer.html.erb&#10;_hea&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/app/views/layouts/_header.html.erb&#10;_s&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/app/views/layouts/_shim.html.erb&#10;custom&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/app/assets/stylesheets/custom.css.scss&#10;test&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/test/test_helper.rb&#10;home.&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/app/views/static_pages/home.html.erb&#10;applica&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/app/helpers/application_helper.rb&#10;.g&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/.gitignore&#10;backtr&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/config/initializers/backtrace_silencers.rb&#10;/te&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/test&#10;app&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/app/controllers/application_controller.rb&#10;rou&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/config/routes.rb&#10;st&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/app/controllers/static_pages_controller.rb&#10;app/&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/app" />
+    <property name="SearchEverywhereHistoryKey" value="fill&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/test/integration/fill_layout_test.rb&#10;/la&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/app/views/layouts&#10;_&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/app/views/layouts/_header.html.erb&#10;head&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/app/views/layouts/_header.html.erb&#10;route&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/config/routes.rb&#10;Gem&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/Gemfile&#10;Ge&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/Gemfile&#10;sta&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/app/controllers/static_pages_controller.rb&#10;cont&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/app/views/static_pages/contact.html.erb&#10;contac&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/app/views/static_pages/contact.html.erb&#10;appl&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/app/assets/stylesheets/application.css&#10;_foot&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/app/views/layouts/_footer.html.erb&#10;_hea&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/app/views/layouts/_header.html.erb&#10;_s&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/app/views/layouts/_shim.html.erb&#10;custom&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/app/assets/stylesheets/custom.css.scss&#10;test&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/test/test_helper.rb&#10;home.&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/app/views/static_pages/home.html.erb&#10;applica&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/app/helpers/application_helper.rb&#10;.g&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/.gitignore&#10;backtr&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/config/initializers/backtrace_silencers.rb&#10;/te&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/test&#10;app&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/app/controllers/application_controller.rb&#10;rou&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/config/routes.rb&#10;st&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/app/controllers/static_pages_controller.rb&#10;app/&#9;FILE&#9;file:///home/klchnkvv/main/learnordie/ruby/rails/pet-project/app" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
   </component>
@@ -464,12 +474,12 @@
       <workItem from="1499754391729" duration="1144000" />
       <workItem from="1499755600387" duration="2974000" />
       <workItem from="1499932739269" duration="12370000" />
-      <workItem from="1500360095459" duration="534000" />
+      <workItem from="1500360095459" duration="1667000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22766000" />
+    <option name="totallyTimeSpent" value="23899000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="0" width="1876" height="1081" extended-state="6" />
@@ -507,13 +517,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/controllers/static_pages_controller_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/about.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -781,20 +784,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_shim.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -809,22 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/controllers/static_pages_controller_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -835,8 +808,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/contact.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        <state relative-caret-position="85">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="74" column="19" lean-forward="true" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/static_pages_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/controllers/static_pages_controller_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_shim.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding>
+            <marker date="1499939568418" expanded="true" signature="90:100" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -851,26 +866,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="98" column="15" lean-forward="false" selection-start-line="98" selection-start-column="15" selection-end-line="98" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/static_pages_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        <state relative-caret-position="85">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/integration/fill_layout_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
           <folding />
         </state>
       </provider>
