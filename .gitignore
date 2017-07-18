@@ -16,8 +16,14 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
-.idea
+.idea/workspace.xml
 
 # Ignore Byebug command history file.
 .byebug_history
 bin/spring
+.idea/.generators
+.idea/dictionaries/
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/pet-project.iml
