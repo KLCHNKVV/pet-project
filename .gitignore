@@ -27,3 +27,4 @@ bin/spring
 .idea/misc.xml
 .idea/modules.xml
 .idea/pet-project.iml
+app/assets/images
