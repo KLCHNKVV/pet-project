@@ -33,6 +33,7 @@ gem 'bootstrap-sass'
 # Use ActiveModel has_secure_password
 gem 'bcrypt'
 gem 'refinerycms'
+gem 'simple_form'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

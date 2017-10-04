@@ -246,6 +246,9 @@ GEM
       tilt (>= 1.1, < 3)
     seo_meta (3.0.0)
       railties (>= 5.0.0)
+    simple_form (3.5.0)
+      actionpack (> 4, < 5.2)
+      activemodel (> 4, < 5.2)
     speakingurl-rails (8.0.2)
       railties (>= 3.1)
     spring (2.0.2)
@@ -308,6 +311,7 @@ DEPENDENCIES
   refinerycms
   rspec
   sass-rails
+  simple_form
   spring
   spring-watcher-listen
   sqlite3

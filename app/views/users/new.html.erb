@@ -1,4 +1,11 @@
 <%=	provide(:title, 'User Signup') %>
 <h1>Sign Up</h1>
-
-<p>There will be great signup page.</p>
+<div class="col-md-7 col-md-offset-3" style="text-align: center">
+  <%=	simple_form_for @user, html: {class: 'form-vertical'} do |t| %>
+      <%=	 t.input :name %>
+      <%=	 t.input :email %>
+      <%=	 t.input :password%>
+      <%=	 t.input :password_confirmation %>
+      <%=	 t.submit "Create Account", class: "btn btn-primary" %>
+      <% end %>
+</div>
