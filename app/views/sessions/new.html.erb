@@ -1,0 +1,14 @@
+<%	 provide :title, 'Log In' %>>
+<h1>Log In</h1>
+
+<div class="row">
+  <div class="col-md-5 col-md-offset-3">
+    <%=	 simple_form_for(:session, url: login_path) do |f| %>
+        <%=	 f.input :email, class: 'form-control' %>
+        <%=	 f.input :password, class: 'form-control' %>
+        <%=	 f.submit 'Log In', class: 'btn btn-primary' %>
+    <%	 end %>
+    <br />
+    <p>Don't have account yet? <%=	 link_to 'Sign Up Now.', signup_path %></p>
+  </div>
+</div>
